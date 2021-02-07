@@ -1,0 +1,82 @@
+/* =============
+    Section 3
+============= */
+
+#section-3{
+    background-color: $blue;
+    color: $white;
+    height: 1600px;
+
+    .motion-product{ 
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            ". cloud3"
+            "cloud1 ."
+            "product product"
+            ". cloud2";
+
+        #right-cloud3{
+            grid-area: cloud3;
+            background-image: url(../assets/yellowcloud1.png);
+            background-repeat: no-repeat;
+            background-position: right;
+            height: 162px;
+            width: 575px;
+            margin-left: 200px;
+            // margin: 0 auto;
+        }
+
+        #left-cloud{
+            grid-area: cloud1;
+            background-image: url(../assets/yellowcloud2.png);
+            background-repeat: no-repeat;
+            background-position: left;
+            height: 100%;
+            width: 100%;
+            padding-top: 20%;
+ 
+        }
+
+        #right-cloud{
+            grid-area: cloud2;
+            background-image: url(../assets/yellowcloud1.png);
+            background-position: right;
+            background-repeat: no-repeat;
+            width: 100%;
+            padding-top: 300px;
+        }
+        #product{
+            grid-area: product;
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-areas: 
+            "teabox"
+            "info";
+
+            #img {
+                grid-area: teabox;
+                background-image: url(../Assets/lantern-products.png);
+                background-size: cover;
+                background-position: center;
+                height: 570px;
+                width: 1095px;
+                margin: 0 auto;
+                margin-bottom: 0px;
+            }
+
+            #text {
+                grid-area: info;
+                margin: 0 auto;
+                max-width: 57%;
+                text-align: justify;
+                margin-top: 600px;
+                // margin-bottom: 50px;
+    
+                #h1{
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+/* =============
+    Navigation
+============= */
+#nav-container {
+    
+    ul {
+        height: 10%;
+        text-align: right;
+
+        @include lg{
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        li {
+            margin-bottom: 20px;
+
+            border-bottom: 1px sold $yellow;
+
+            a:link,
+            a:visited {
+               color: $white; 
+               text-decoration: none;
+            }
+            a:hover,
+            a:active {
+                color: $blue;
+            }
+
+            @include lg {
+                align-items: center;
+                display: flex; 
+                margin: 30px 40px;
+
+                a:link,
+                a:visited {
+                    color: $white; 
+                text-decoration: none;
+                }
+                a:hover,
+                a:active {
+                    color: $yellow;
+                }
+            }
+        }
+    }
+}
