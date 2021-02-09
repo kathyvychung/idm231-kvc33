@@ -379,19 +379,19 @@ ul li {
 /* =============
     Typography
 ============= */
-body {
-  font-family: "Montserrat", sans-serif;
+p {
+  font-family: "Lustria", serif;
 }
 
 h1, h2, h4 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Rozha One", serif;
   margin: 0;
   padding: 0;
 }
 
 h1 {
   font-size: 3.75rem;
-  color: #BF5044;
+  color: #F4AA34;
 }
 
 h2 {
@@ -418,7 +418,6 @@ h2 {
 }
 
 p, h5 {
-  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.5625rem;
@@ -478,7 +477,7 @@ textarea {
 }
 #nav-container ul li {
   margin-bottom: 20px;
-  border-bottom: 1px sold #D6BA40;
+  border-bottom: 1px sold #F4AA34;
 }
 #nav-container ul li a:link,
 #nav-container ul li a:visited {
@@ -487,7 +486,7 @@ textarea {
 }
 #nav-container ul li a:hover,
 #nav-container ul li a:active {
-  color: #1A3365;
+  color: #3B4F6B;
 }
 @media (min-width: 992px) {
   #nav-container ul li {
@@ -502,66 +501,8 @@ textarea {
   }
   #nav-container ul li a:hover,
 #nav-container ul li a:active {
-    color: #D6BA40;
+    color: #F4AA34;
   }
-}
-
-/* =============
-    Header
-============= */
-#header {
-  opacity: 100%;
-  left: 0;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1;
-  background-color: #1A3365;
-}
-#header ul {
-  text-align: center;
-}
-#header > div {
-  display: grid;
-  grid-template-areas: "burger burger" "nav nav";
-  grid-template-columns: 80% auto;
-}
-#header > div #burger-container {
-  align-items: center;
-  display: flex;
-  grid-area: burger;
-  justify-content: flex-end;
-}
-@media (min-width: 992px) {
-  #header > div #burger-container {
-    display: none !important;
-  }
-}
-#header > div #burger-container i {
-  cursor: pointer;
-}
-#header > div #nav-container {
-  grid-area: nav;
-  display: none;
-  background-color: #D6BA40;
-}
-@media (min-width: 992px) {
-  #header > div #nav-container {
-    display: block !important;
-    background-color: #1A3365;
-    width: 0px;
-    height: 50px;
-  }
-}
-@media (min-width: 992px) {
-  #header > div {
-    display: grid;
-    grid-template-columns: 70% auto;
-    grid-template-areas: "logo nav";
-  }
-}
-#header > div section i {
-  color: #fff;
 }
 
 /* =============
@@ -591,7 +532,7 @@ textarea {
 }
 #footer > div h5 {
   grid-area: subscribe;
-  color: #BF5044;
+  color: #EF6E50;
   font-size: 20px;
   padding: 30px;
   text-align: center;
@@ -640,7 +581,7 @@ textarea {
 }
 #footer > div #button {
   grid-area: button;
-  background-color: #BF5044;
+  background-color: #EF6E50;
   border-radius: 15px;
   width: 126px;
   height: 30px;
@@ -662,7 +603,7 @@ textarea {
 #footer > div p {
   grid-area: copyright;
   padding-top: 30px;
-  color: #BF5044;
+  color: #EF6E50;
   text-align: center;
 }
 @media (min-width: 768px) {
@@ -680,157 +621,13 @@ textarea {
     Section 1
 ============= */
 #section-1 {
-  background-color: #1A3365;
+  background-color: #14203F;
   color: #fff;
-  height: 1600px;
+  width: 1280px;
+  height: 960px;
 }
-#section-1 #hero-image {
-  grid-area: hero;
-  background-image: url(../assets/lantern-hero.png);
+#section-1 #background-image {
+  background-image: url(../assets/background.jpg);
   background-size: cover;
-  background-position: center;
-  height: 1256px;
-  width: 1440px;
-  margin-top: 50px;
-}
-#section-1 #hero-image #text {
-  margin: 0 auto;
-  max-width: 55%;
-  padding-top: 1150px;
-  text-align: justify;
-}
-#section-1 #grid {
-  display: grid;
-  grid-template-areas: "cloud collab";
-  grid-template-columns: 1fr 1fr;
-}
-#section-1 h1 {
-  grid-area: collab;
-  text-align: right;
-  padding-top: 250px;
-  margin-right: 120px;
-  justify-content: flex-end;
-}
-#section-1 #cloud {
-  grid-area: cloud;
-  background-image: url(../assets/yellowcloud2.png);
-  background-position: left;
-  background-repeat: no-repeat;
-  height: 162px;
-  width: 575px;
-  padding-top: 470px;
-}
-
-/* =============
-    Section 2
-============= */
-#section-2 {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-areas: ". grid-content .";
-}
-#section-2 .grid-content {
-  display: grid;
-  background-color: #D6BA40;
-  grid-template-areas: ". text1" "text2 ." ". cloud";
-  grid-template-rows: 65vh 60vh;
-  grid-template-columns: 1fr 1fr;
-}
-#section-2 .grid-content .parent-picture {
-  position: absolute;
-}
-#section-2 .grid-content .dad {
-  top: 210vh;
-  right: 0px;
-  bottom: 0px;
-  left: 15vh;
-}
-#section-2 .grid-content .mom {
-  top: 265vh;
-  right: 0px;
-  bottom: 0x;
-  left: 100vh;
-}
-#section-2 .grid-content #text1 {
-  grid-area: text1;
-  max-width: 71%;
-  margin-left: 70px;
-  margin-top: 10%;
-}
-#section-2 .grid-content #text2 {
-  grid-area: text2;
-  margin: 0 auto;
-  max-width: 90%;
-  padding-left: 40px;
-  margin-top: 2%;
-}
-#section-2 .grid-content p {
-  margin: 20px;
-  color: #1A3365;
-}
-
-/* =============
-    Section 3
-============= */
-#section-3 {
-  background-color: #1A3365;
-  color: #fff;
-  height: 1600px;
-}
-#section-3 .motion-product {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: ". cloud3" "cloud1 ." "product product" ". cloud2";
-}
-#section-3 .motion-product #right-cloud3 {
-  grid-area: cloud3;
-  background-image: url(../assets/yellowcloud1.png);
-  background-repeat: no-repeat;
-  background-position: right;
-  height: 162px;
-  width: 575px;
-  margin-left: 200px;
-}
-#section-3 .motion-product #left-cloud {
-  grid-area: cloud1;
-  background-image: url(../assets/yellowcloud2.png);
-  background-repeat: no-repeat;
-  background-position: left;
-  height: 100%;
-  width: 100%;
-  padding-top: 20%;
-}
-#section-3 .motion-product #right-cloud {
-  grid-area: cloud2;
-  background-image: url(../assets/yellowcloud1.png);
-  background-position: right;
-  background-repeat: no-repeat;
-  width: 100%;
-  padding-top: 300px;
-}
-#section-3 .motion-product #product {
-  grid-area: product;
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-areas: "teabox" "info";
-}
-#section-3 .motion-product #product #img {
-  grid-area: teabox;
-  background-image: url(../Assets/lantern-products.png);
-  background-size: cover;
-  background-position: center;
-  height: 570px;
-  width: 1095px;
-  margin: 0 auto;
-  margin-bottom: 0px;
-}
-#section-3 .motion-product #product #text {
-  grid-area: info;
-  margin: 0 auto;
-  max-width: 57%;
-  text-align: justify;
-  margin-top: 600px;
-}
-#section-3 .motion-product #product #text #h1 {
-  text-align: center;
+  height: 960px;
 }

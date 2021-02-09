@@ -2,48 +2,56 @@
     Section 1
 ============= */
 #section-1{
-    background-color: $blue;
+    background-color: $dark-blue;
     color: $white;
-    height: 1600px;
+    width: 1280px;
+    height: 960px;
 
-
-    #hero-image { 
-        grid-area: hero;
-        background-image: url(../assets/lantern-hero.png);
+    #background-image {
+        background-image: url(../assets/background.jpg);
         background-size: cover;
-        background-position: center;
-        height: 1256px;
-        width: 1440px;
-        margin-top: 50px;
-
-        #text {
-            margin: 0 auto;
-            max-width: 55%;
-            padding-top: 1150px;
-            text-align: justify;
-        }
+        height: 960px;
+        // width: 1280px;
     }
 
-    #grid{
-        display: grid;
-        grid-template-areas: 
-            "cloud collab";
-        grid-template-columns: 1fr 1fr;
-    }
-    h1{
-        grid-area: collab;
-        text-align: right;
-        padding-top:250px;
-        margin-right: 120px;
-        justify-content: flex-end;
-    }
-    #cloud{
-        grid-area: cloud;
-        background-image: url(../assets/yellowcloud2.png);
-        background-position: left;
-        background-repeat: no-repeat;
-        height: 162px;
-        width: 575px;
-        padding-top: 470px;
-    } 
+
+    // #hero-image { 
+    //     grid-area: hero;
+    //     background-image: url(../assets/lantern-hero.png);
+    //     background-size: cover;
+    //     background-position: center;
+    //     height: 1256px;
+    //     width: 1440px;
+    //     margin-top: 50px;
+
+    //     #text {
+    //         margin: 0 auto;
+    //         max-width: 55%;
+    //         padding-top: 1150px;
+    //         text-align: justify;
+    //     }
+    // }
+
+    // #grid{
+    //     display: grid;
+    //     grid-template-areas: 
+    //         "cloud collab";
+    //     grid-template-columns: 1fr 1fr;
+    // }
+    // h1{
+    //     grid-area: collab;
+    //     text-align: right;
+    //     padding-top:250px;
+    //     margin-right: 120px;
+    //     justify-content: flex-end;
+    // }
+    // #cloud{
+    //     grid-area: cloud;
+    //     background-image: url(../assets/yellowcloud2.png);
+    //     background-position: left;
+    //     background-repeat: no-repeat;
+    //     height: 162px;
+    //     width: 575px;
+    //     padding-top: 470px;
+    // } 
 }
