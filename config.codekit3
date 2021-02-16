@@ -22,11 +22,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/telescope.png": {
+	"/deploy/assets/constellation.png": {
 		"ft": 32768,
-		"iS": 43793,
+		"iS": 99532,
 		"oA": 0,
-		"oAP": "/deploy/assets/telescope.png",
+		"oAP": "/deploy/assets/constellation.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
