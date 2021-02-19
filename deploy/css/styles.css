@@ -617,7 +617,7 @@ textarea {
   }
 }
 
-#background {
+.background {
   background-image: url(../assets/background.jpg);
   background-size: cover;
   height: 960px;
@@ -673,4 +673,31 @@ textarea {
   font-family: "Lustria", serif;
   cursor: pointer;
   opacity: 0.7;
+}
+
+#gallery #background {
+  background-image: url(../assets/background.jpg);
+  background-size: cover;
+  height: 960px;
+  background-color: #14203F;
+  color: #fff;
+  width: 1280px;
+  height: 960px;
+}
+#gallery .zButton {
+  width: 180px;
+  height: 180px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  opacity: 1;
+}
+#gallery #Ari {
+  background-image: url("../assets/gallery-ari.png");
+}
+#gallery #sco {
+  background-image: url("../img/sml_scorpio.png");
+}
+#gallery #aqu {
+  background-image: url("../img/sml_aquarius.png");
 }

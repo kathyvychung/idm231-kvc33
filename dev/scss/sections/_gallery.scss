@@ -1,0 +1,33 @@
+#gallery{
+    #background{ 
+        background-image: url(../assets/background.jpg);
+        background-size: cover;
+        height: 960px;
+
+        background-color: $dark-blue;
+        color: $white;
+        width: 1280px;
+        height: 960px;
+    }
+
+    .zButton {
+        width: 180px;
+        height: 180px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        opacity: 1;
+      }
+
+    #Ari {
+        background-image: url('../assets/gallery-ari.png');
+      }
+      
+      #sco {
+        background-image: url('../img/sml_scorpio.png');
+      }
+      
+      #aqu {
+        background-image: url('../img/sml_aquarius.png');
+      }
+}
