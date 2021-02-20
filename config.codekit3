@@ -416,6 +416,14 @@
 		"oAP": "/deploy/gallery.html",
 		"oF": 3
 		},
+	"/dev/home.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/home.html",
+		"oF": 0
+		},
 	"/dev/home.kit": {
 		"cB": 0,
 		"ft": 2048,

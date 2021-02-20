@@ -10,24 +10,120 @@
         height: 960px;
     }
 
+    #look-down {
+        margin: 20px;
+        color: $yellow;
+        width: 90px;
+        height: 90px;
+        border: 2px solid;
+        border-color: $yellow;
+        text-align: center;
+        
+        text-decoration: none;
+        background-color: transparent;
+        cursor: pointer;
+        opacity: 1;
+
+        transition-duration: 0.4s;
+
+        a {
+            color: $yellow;
+            font-family: 'Lustria', serif;
+            text-decoration: none;
+            text-transform: uppercase;
+          }
+        
+    }
+
+    #look-down:hover {
+        background-color: $yellow
+    }
+
     .zButton {
         width: 180px;
         height: 180px;
         border: none;
         background-color: transparent;
         cursor: pointer;
+        opacity: .75;
+        margin: 45px;
+    }
+
+    .zButton:hover {
         opacity: 1;
       }
 
+    #grid-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+            "ari tau gem can"
+            "leo vir lib sco"
+            "sag cap pis aqu";
+
+    }
+
     #Ari {
-        background-image: url('../assets/gallery-ari.png');
-      }
+        
+        grid-area: ari;
+        background-image: url('../assets/gallery-aries.png');
+    }
       
-      #sco {
-        background-image: url('../img/sml_scorpio.png');
-      }
+    #Tau {
+        
+        grid-area: tau;
+        background-image: url('../assets/gallery-tau.png');
+    }
       
-      #aqu {
-        background-image: url('../img/sml_aquarius.png');
-      }
+    #Gem {
+        
+        grid-area: gem;
+        background-image: url('../assets/gallery-gem.png');
+    }
+
+    #Can {
+        grid-area: can;
+        background-image: url('../assets/gallery-can.png');
+    }
+
+    #Leo {
+        grid-area: leo;
+        background-image: url('../assets/gallery-leo.png');
+    }
+
+    #Vir {
+        grid-area: vir;
+        background-image: url('../assets/gallery-vir.png');
+    }
+
+    #Lib {
+        grid-area: lib;
+        background-image: url('../assets/gallery-lib.png');
+    }
+
+    #Sco {
+        grid-area: sco;
+        background-image: url('../assets/gallery-sco.png');
+    }
+
+    #Sag {
+        grid-area: sag;
+        background-image: url('../assets/gallery-sag.png');
+    }
+
+    #Cap {
+        grid-area: cap;
+        background-image: url('../assets/gallery-cap.png');
+    }
+
+    #Pis {
+        grid-area: pis;
+        background-image: url('../assets/gallery-pis.png');
+    }
+
+    #Aqu {
+        grid-area: aqu;
+        background-image: url('../assets/gallery-aqu.png');
+    }
 }
