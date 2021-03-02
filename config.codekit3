@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "33081",
 "files": {
+	"/.vscode/settings.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/.vscode/settings-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"/deploy/assets/background.jpg": {
 		"ft": 16384,
 		"iS": 1903053,
@@ -416,21 +424,13 @@
 		"oAP": "/deploy/gallery.html",
 		"oF": 3
 		},
-	"/dev/home.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/home.html",
-		"oF": 0
-		},
 	"/dev/home.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/dev/home.html",
-		"oF": 0
+		"oAP": "/deploy/home.html",
+		"oF": 2
 		},
 	"/dev/index.kit": {
 		"cB": 0,
@@ -665,6 +665,14 @@
 		"oF": 2,
 		"oS": 0,
 		"sct": 0
+		},
+	"/dev/zodiac/Aries.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/zodiac/Aries.html",
+		"oF": 0
 		},
 	"/idm231-kvc33-Constellations.jpg": {
 		"ft": 16384,

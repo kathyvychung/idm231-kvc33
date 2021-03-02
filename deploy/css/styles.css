@@ -644,16 +644,27 @@ textarea {
   grid-template-areas: "look-button" "telescope-img";
 }
 #home .grid-content #left #look-up {
-  grid-area: look-button;
   margin: 20px;
+  color: #F4AA34;
   width: 90px;
   height: 90px;
   border: 2px solid;
   border-color: #F4AA34;
-  color: #F4AA34;
+  text-align: center;
+  text-decoration: none;
   background-color: transparent;
   cursor: pointer;
   opacity: 1;
+  transition-duration: 0.4s;
+}
+#home .grid-content #left #look-up a {
+  color: #F4AA34;
+  font-family: "Lustria", serif;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#home .grid-content #left #look-up:hover {
+  background-color: #F4AA34;
 }
 #home .grid-content #left #telescope {
   grid-area: telescope-img;

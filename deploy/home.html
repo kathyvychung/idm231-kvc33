@@ -16,15 +16,14 @@
     <title>Zodiac Constellation</title>
 </head>
 
-<!-- <body>
-
+<body>
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- Greensock -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
 
     <script src="js/scripts-min.js"></script>
-</body> -->
+</body>
 <section id="home">
     <section class="background">
         <div class="grid-content">
@@ -40,7 +39,12 @@
                     What a beautiful night to look up at the stars...
                     <br>What constellation will you find tonight?
                 </p>
-                <button class="zButton" id="gaze">gaze</button>
+
+                <div id="userinfo">
+                    <p><input id="fname" type="text" placeholder="First Name"></p>
+                    <p><input id="bday" type="date"></p>
+                    <p><button class="zButton" id="gaze">gaze</button></p>
+                  </div>
             </section>
         </div>
     </section>

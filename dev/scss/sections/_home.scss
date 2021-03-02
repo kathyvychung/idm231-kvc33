@@ -21,16 +21,31 @@
             "telescope-img";
 
             #look-up {
-                grid-area: look-button;
                 margin: 20px;
+                color: $yellow;
                 width: 90px;
                 height: 90px;
                 border: 2px solid;
                 border-color: $yellow;
-                color: $yellow;
+                text-align: center;
+                
+                text-decoration: none;
                 background-color: transparent;
                 cursor: pointer;
                 opacity: 1;
+
+                transition-duration: 0.4s;
+
+                a {
+                    color: $yellow;
+                    font-family: 'Lustria', serif;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                }
+            }
+
+            #look-up:hover {
+                background-color: $yellow
             }
 
             #telescope {

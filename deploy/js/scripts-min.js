@@ -1,1 +1,1 @@
-!function(){"use strict";window.scrollTo(bottom)}();
+!function(){"use strict";document.getElementById("Pis"),document.getElementById("Sco"),document.getElementById("Aqu")}();
