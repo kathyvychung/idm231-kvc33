@@ -25,7 +25,163 @@
 		"oAP": "/deploy/assets/background.jpg",
 		"oF": 0,
 		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/deploy/assets/card/galleryaquarius.png": {
+		"ft": 32768,
+		"iS": 13597,
+		"oA": 0,
+		"oAP": "/deploy/assets/card/galleryaquarius.png",
+		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/deploy/assets/card/galleryaries.png": {
+		"ft": 32768,
+		"iS": 11999,
+		"oA": 0,
+		"oAP": "/deploy/assets/card/galleryaries.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/deploy/assets/card/gallerycancer.png": {
+		"ft": 32768,
+		"iS": 12245,
+		"oA": 0,
+		"oAP": "/deploy/assets/card/gallerycancer.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/deploy/assets/card/gallerycapricorn.png": {
+		"ft": 32768,
+		"iS": 15399,
+		"oA": 0,
+		"oAP": "/deploy/assets/card/gallerycapricorn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/deploy/assets/card/gallerygemini.png": {
+		"ft": 32768,
+		"iS": 21190,
+		"oA": 0,
+		"oAP": "/deploy/assets/card/gallerygemini.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/deploy/assets/card/galleryleo.png": {
+		"ft": 32768,
+		"iS": 12412,
+		"oA": 0,
+		"oAP": "/deploy/assets/card/galleryleo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/deploy/assets/card/gallerylibra.png": {
+		"ft": 32768,
+		"iS": 17687,
+		"oA": 0,
+		"oAP": "/deploy/assets/card/gallerylibra.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/deploy/assets/card/gallerypisces.png": {
+		"ft": 32768,
+		"iS": 20212,
+		"oA": 0,
+		"oAP": "/deploy/assets/card/gallerypisces.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/deploy/assets/card/gallerysagittarius.png": {
+		"ft": 32768,
+		"iS": 17042,
+		"oA": 0,
+		"oAP": "/deploy/assets/card/gallerysagittarius.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/deploy/assets/card/galleryscorpio.png": {
+		"ft": 32768,
+		"iS": 14107,
+		"oA": 0,
+		"oAP": "/deploy/assets/card/galleryscorpio.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/deploy/assets/card/gallerytaurus.png": {
+		"ft": 32768,
+		"iS": 15421,
+		"oA": 0,
+		"oAP": "/deploy/assets/card/gallerytaurus.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/deploy/assets/card/galleryvirgo.png": {
+		"ft": 32768,
+		"iS": 15684,
+		"oA": 0,
+		"oAP": "/deploy/assets/card/galleryvirgo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -43,11 +199,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/gallery-aqu.png": {
+	"/deploy/assets/icon/gallery-aqu.png": {
 		"ft": 32768,
 		"iS": 5588,
 		"oA": 0,
-		"oAP": "/deploy/assets/gallery-aqu.png",
+		"oAP": "/deploy/assets/icon/gallery-aqu.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -56,11 +212,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/gallery-aries.png": {
+	"/deploy/assets/icon/gallery-aries.png": {
 		"ft": 32768,
 		"iS": 4036,
 		"oA": 0,
-		"oAP": "/deploy/assets/gallery-aries.png",
+		"oAP": "/deploy/assets/icon/gallery-aries.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -69,11 +225,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/gallery-can.png": {
+	"/deploy/assets/icon/gallery-can.png": {
 		"ft": 32768,
 		"iS": 4047,
 		"oA": 0,
-		"oAP": "/deploy/assets/gallery-can.png",
+		"oAP": "/deploy/assets/icon/gallery-can.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -82,11 +238,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/gallery-cap.png": {
+	"/deploy/assets/icon/gallery-cap.png": {
 		"ft": 32768,
 		"iS": 4950,
 		"oA": 0,
-		"oAP": "/deploy/assets/gallery-cap.png",
+		"oAP": "/deploy/assets/icon/gallery-cap.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -95,11 +251,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/gallery-gem.png": {
+	"/deploy/assets/icon/gallery-gem.png": {
 		"ft": 32768,
 		"iS": 7403,
 		"oA": 0,
-		"oAP": "/deploy/assets/gallery-gem.png",
+		"oAP": "/deploy/assets/icon/gallery-gem.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -108,11 +264,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/gallery-leo.png": {
+	"/deploy/assets/icon/gallery-leo.png": {
 		"ft": 32768,
 		"iS": 4949,
 		"oA": 0,
-		"oAP": "/deploy/assets/gallery-leo.png",
+		"oAP": "/deploy/assets/icon/gallery-leo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -121,11 +277,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/gallery-lib.png": {
+	"/deploy/assets/icon/gallery-lib.png": {
 		"ft": 32768,
 		"iS": 5924,
 		"oA": 0,
-		"oAP": "/deploy/assets/gallery-lib.png",
+		"oAP": "/deploy/assets/icon/gallery-lib.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -134,11 +290,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/gallery-pis.png": {
+	"/deploy/assets/icon/gallery-pis.png": {
 		"ft": 32768,
 		"iS": 7066,
 		"oA": 0,
-		"oAP": "/deploy/assets/gallery-pis.png",
+		"oAP": "/deploy/assets/icon/gallery-pis.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -147,11 +303,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/gallery-sag.png": {
+	"/deploy/assets/icon/gallery-sag.png": {
 		"ft": 32768,
 		"iS": 5609,
 		"oA": 0,
-		"oAP": "/deploy/assets/gallery-sag.png",
+		"oAP": "/deploy/assets/icon/gallery-sag.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -160,11 +316,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/gallery-sco.png": {
+	"/deploy/assets/icon/gallery-sco.png": {
 		"ft": 32768,
 		"iS": 4951,
 		"oA": 0,
-		"oAP": "/deploy/assets/gallery-sco.png",
+		"oAP": "/deploy/assets/icon/gallery-sco.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -173,11 +329,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/gallery-tau.png": {
+	"/deploy/assets/icon/gallery-tau.png": {
 		"ft": 32768,
 		"iS": 4554,
 		"oA": 0,
-		"oAP": "/deploy/assets/gallery-tau.png",
+		"oAP": "/deploy/assets/icon/gallery-tau.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -186,11 +342,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/gallery-vir.png": {
+	"/deploy/assets/icon/gallery-vir.png": {
 		"ft": 32768,
 		"iS": 5838,
 		"oA": 0,
-		"oAP": "/deploy/assets/gallery-vir.png",
+		"oAP": "/deploy/assets/icon/gallery-vir.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -199,158 +355,41 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/galleryaquarius.png": {
-		"ft": 32768,
-		"iS": 13597,
+	"/deploy/assets/planning/idm231-kvc33-Flowchart-1.jpg": {
+		"ft": 16384,
+		"iS": 389817,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/assets/galleryaquarius.png",
+		"oAP": "/deploy/assets/planning/idm231-kvc33-Flowchart-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/galleryaries.png": {
-		"ft": 32768,
-		"iS": 11999,
+	"/deploy/assets/planning/idm231-kvc33-Flowchart-2.jpg": {
+		"ft": 16384,
+		"iS": 374553,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/assets/galleryaries.png",
+		"oAP": "/deploy/assets/planning/idm231-kvc33-Flowchart-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/gallerycancer.png": {
-		"ft": 32768,
-		"iS": 12245,
+	"/deploy/assets/planning/idm231-kvc33-Styletile.jpg": {
+		"ft": 16384,
+		"iS": 552513,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/assets/gallerycancer.png",
+		"oAP": "/deploy/assets/planning/idm231-kvc33-Styletile.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/deploy/assets/gallerycapricorn.png": {
-		"ft": 32768,
-		"iS": 15399,
-		"oA": 0,
-		"oAP": "/deploy/assets/gallerycapricorn.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/deploy/assets/gallerygemini.png": {
-		"ft": 32768,
-		"iS": 21190,
-		"oA": 0,
-		"oAP": "/deploy/assets/gallerygemini.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/deploy/assets/galleryleo.png": {
-		"ft": 32768,
-		"iS": 12412,
-		"oA": 0,
-		"oAP": "/deploy/assets/galleryleo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/deploy/assets/gallerylibra.png": {
-		"ft": 32768,
-		"iS": 17687,
-		"oA": 0,
-		"oAP": "/deploy/assets/gallerylibra.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/deploy/assets/gallerypisces.png": {
-		"ft": 32768,
-		"iS": 20212,
-		"oA": 0,
-		"oAP": "/deploy/assets/gallerypisces.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/deploy/assets/gallerysagittarius.png": {
-		"ft": 32768,
-		"iS": 17042,
-		"oA": 0,
-		"oAP": "/deploy/assets/gallerysagittarius.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/deploy/assets/galleryscorpio.png": {
-		"ft": 32768,
-		"iS": 14107,
-		"oA": 0,
-		"oAP": "/deploy/assets/galleryscorpio.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/deploy/assets/gallerytaurus.png": {
-		"ft": 32768,
-		"iS": 15421,
-		"oA": 0,
-		"oAP": "/deploy/assets/gallerytaurus.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/deploy/assets/galleryvirgo.png": {
-		"ft": 32768,
-		"iS": 15684,
-		"oA": 0,
-		"oAP": "/deploy/assets/galleryvirgo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -406,14 +445,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/section-2.html",
-		"oF": 0
-		},
-	"/design/LadyM.sketch": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/design/LadyM.sketch",
 		"oF": 0
 		},
 	"/dev/gallery.kit": {
@@ -674,58 +705,6 @@
 		"oAP": "/dev/zodiac/Aries.html",
 		"oF": 0
 		},
-	"/idm231-kvc33-Constellations.jpg": {
-		"ft": 16384,
-		"iS": 827481,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/idm231-kvc33-Constellations.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/idm231-kvc33-Flowchart-1.jpg": {
-		"ft": 16384,
-		"iS": 389817,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/idm231-kvc33-Flowchart-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/idm231-kvc33-Flowchart-2.jpg": {
-		"ft": 16384,
-		"iS": 374553,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/idm231-kvc33-Flowchart-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/idm231-kvc33-Styletile.jpg": {
-		"ft": 16384,
-		"iS": 552513,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/idm231-kvc33-Styletile.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
 	"/idm31-kvc33-Notes.md": {
 		"cB": 0,
 		"cS": 0,
@@ -744,14 +723,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"/Kchung_scrollTrigger.rtf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Kchung_scrollTrigger.rtf",
-		"oF": 0
 		},
 	"/node_modules": {
 		"ft": 65536,
