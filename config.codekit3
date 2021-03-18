@@ -30,154 +30,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/card/galleryaquarius.png": {
+	"/deploy/assets/circle.png": {
 		"ft": 32768,
-		"iS": 13597,
+		"iS": 39837,
 		"oA": 0,
-		"oAP": "/deploy/assets/card/galleryaquarius.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/deploy/assets/card/galleryaries.png": {
-		"ft": 32768,
-		"iS": 11999,
-		"oA": 0,
-		"oAP": "/deploy/assets/card/galleryaries.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/deploy/assets/card/gallerycancer.png": {
-		"ft": 32768,
-		"iS": 12245,
-		"oA": 0,
-		"oAP": "/deploy/assets/card/gallerycancer.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/deploy/assets/card/gallerycapricorn.png": {
-		"ft": 32768,
-		"iS": 15399,
-		"oA": 0,
-		"oAP": "/deploy/assets/card/gallerycapricorn.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/deploy/assets/card/gallerygemini.png": {
-		"ft": 32768,
-		"iS": 21190,
-		"oA": 0,
-		"oAP": "/deploy/assets/card/gallerygemini.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/deploy/assets/card/galleryleo.png": {
-		"ft": 32768,
-		"iS": 12412,
-		"oA": 0,
-		"oAP": "/deploy/assets/card/galleryleo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/deploy/assets/card/gallerylibra.png": {
-		"ft": 32768,
-		"iS": 17687,
-		"oA": 0,
-		"oAP": "/deploy/assets/card/gallerylibra.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/deploy/assets/card/gallerypisces.png": {
-		"ft": 32768,
-		"iS": 20212,
-		"oA": 0,
-		"oAP": "/deploy/assets/card/gallerypisces.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/deploy/assets/card/gallerysagittarius.png": {
-		"ft": 32768,
-		"iS": 17042,
-		"oA": 0,
-		"oAP": "/deploy/assets/card/gallerysagittarius.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/deploy/assets/card/galleryscorpio.png": {
-		"ft": 32768,
-		"iS": 14107,
-		"oA": 0,
-		"oAP": "/deploy/assets/card/galleryscorpio.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/deploy/assets/card/gallerytaurus.png": {
-		"ft": 32768,
-		"iS": 15421,
-		"oA": 0,
-		"oAP": "/deploy/assets/card/gallerytaurus.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/deploy/assets/card/galleryvirgo.png": {
-		"ft": 32768,
-		"iS": 15684,
-		"oA": 0,
-		"oAP": "/deploy/assets/card/galleryvirgo.png",
+		"oAP": "/deploy/assets/circle.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -199,11 +56,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/icon/gallery-aqu.png": {
+	"/deploy/assets/gallery-aqu.png": {
 		"ft": 32768,
 		"iS": 5588,
 		"oA": 0,
-		"oAP": "/deploy/assets/icon/gallery-aqu.png",
+		"oAP": "/deploy/assets/gallery-aqu.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -212,11 +69,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/icon/gallery-aries.png": {
+	"/deploy/assets/gallery-aries.png": {
 		"ft": 32768,
 		"iS": 4036,
 		"oA": 0,
-		"oAP": "/deploy/assets/icon/gallery-aries.png",
+		"oAP": "/deploy/assets/gallery-aries.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -225,11 +82,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/icon/gallery-can.png": {
+	"/deploy/assets/gallery-can.png": {
 		"ft": 32768,
 		"iS": 4047,
 		"oA": 0,
-		"oAP": "/deploy/assets/icon/gallery-can.png",
+		"oAP": "/deploy/assets/gallery-can.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -238,11 +95,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/icon/gallery-cap.png": {
+	"/deploy/assets/gallery-cap.png": {
 		"ft": 32768,
 		"iS": 4950,
 		"oA": 0,
-		"oAP": "/deploy/assets/icon/gallery-cap.png",
+		"oAP": "/deploy/assets/gallery-cap.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -251,11 +108,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/icon/gallery-gem.png": {
+	"/deploy/assets/gallery-gem.png": {
 		"ft": 32768,
 		"iS": 7403,
 		"oA": 0,
-		"oAP": "/deploy/assets/icon/gallery-gem.png",
+		"oAP": "/deploy/assets/gallery-gem.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -264,11 +121,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/icon/gallery-leo.png": {
+	"/deploy/assets/gallery-leo.png": {
 		"ft": 32768,
 		"iS": 4949,
 		"oA": 0,
-		"oAP": "/deploy/assets/icon/gallery-leo.png",
+		"oAP": "/deploy/assets/gallery-leo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -277,11 +134,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/icon/gallery-lib.png": {
+	"/deploy/assets/gallery-lib.png": {
 		"ft": 32768,
 		"iS": 5924,
 		"oA": 0,
-		"oAP": "/deploy/assets/icon/gallery-lib.png",
+		"oAP": "/deploy/assets/gallery-lib.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -290,11 +147,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/icon/gallery-pis.png": {
+	"/deploy/assets/gallery-pis.png": {
 		"ft": 32768,
 		"iS": 7066,
 		"oA": 0,
-		"oAP": "/deploy/assets/icon/gallery-pis.png",
+		"oAP": "/deploy/assets/gallery-pis.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -303,11 +160,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/icon/gallery-sag.png": {
+	"/deploy/assets/gallery-sag.png": {
 		"ft": 32768,
 		"iS": 5609,
 		"oA": 0,
-		"oAP": "/deploy/assets/icon/gallery-sag.png",
+		"oAP": "/deploy/assets/gallery-sag.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -316,11 +173,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/icon/gallery-sco.png": {
+	"/deploy/assets/gallery-sco.png": {
 		"ft": 32768,
 		"iS": 4951,
 		"oA": 0,
-		"oAP": "/deploy/assets/icon/gallery-sco.png",
+		"oAP": "/deploy/assets/gallery-sco.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -329,11 +186,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/icon/gallery-tau.png": {
+	"/deploy/assets/gallery-tau.png": {
 		"ft": 32768,
 		"iS": 4554,
 		"oA": 0,
-		"oAP": "/deploy/assets/icon/gallery-tau.png",
+		"oAP": "/deploy/assets/gallery-tau.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -342,11 +199,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/icon/gallery-vir.png": {
+	"/deploy/assets/gallery-vir.png": {
 		"ft": 32768,
 		"iS": 5838,
 		"oA": 0,
-		"oAP": "/deploy/assets/icon/gallery-vir.png",
+		"oAP": "/deploy/assets/gallery-vir.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -355,41 +212,158 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/planning/idm231-kvc33-Flowchart-1.jpg": {
-		"ft": 16384,
-		"iS": 389817,
-		"jF": 0,
+	"/deploy/assets/galleryaquarius.png": {
+		"ft": 32768,
+		"iS": 13597,
 		"oA": 0,
-		"oAP": "/deploy/assets/planning/idm231-kvc33-Flowchart-1.jpg",
+		"oAP": "/deploy/assets/galleryaquarius.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/planning/idm231-kvc33-Flowchart-2.jpg": {
-		"ft": 16384,
-		"iS": 374553,
-		"jF": 0,
+	"/deploy/assets/galleryaries.png": {
+		"ft": 32768,
+		"iS": 11999,
 		"oA": 0,
-		"oAP": "/deploy/assets/planning/idm231-kvc33-Flowchart-2.jpg",
+		"oAP": "/deploy/assets/galleryaries.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/assets/planning/idm231-kvc33-Styletile.jpg": {
-		"ft": 16384,
-		"iS": 552513,
-		"jF": 0,
+	"/deploy/assets/gallerycancer.png": {
+		"ft": 32768,
+		"iS": 12245,
 		"oA": 0,
-		"oAP": "/deploy/assets/planning/idm231-kvc33-Styletile.jpg",
+		"oAP": "/deploy/assets/gallerycancer.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/deploy/assets/gallerycapricorn.png": {
+		"ft": 32768,
+		"iS": 15399,
+		"oA": 0,
+		"oAP": "/deploy/assets/gallerycapricorn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/deploy/assets/gallerygemini.png": {
+		"ft": 32768,
+		"iS": 21190,
+		"oA": 0,
+		"oAP": "/deploy/assets/gallerygemini.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/deploy/assets/galleryleo.png": {
+		"ft": 32768,
+		"iS": 12412,
+		"oA": 0,
+		"oAP": "/deploy/assets/galleryleo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/deploy/assets/gallerylibra.png": {
+		"ft": 32768,
+		"iS": 17687,
+		"oA": 0,
+		"oAP": "/deploy/assets/gallerylibra.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/deploy/assets/gallerypisces.png": {
+		"ft": 32768,
+		"iS": 20212,
+		"oA": 0,
+		"oAP": "/deploy/assets/gallerypisces.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/deploy/assets/gallerysagittarius.png": {
+		"ft": 32768,
+		"iS": 17042,
+		"oA": 0,
+		"oAP": "/deploy/assets/gallerysagittarius.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/deploy/assets/galleryscorpio.png": {
+		"ft": 32768,
+		"iS": 14107,
+		"oA": 0,
+		"oAP": "/deploy/assets/galleryscorpio.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/deploy/assets/gallerytaurus.png": {
+		"ft": 32768,
+		"iS": 15421,
+		"oA": 0,
+		"oAP": "/deploy/assets/gallerytaurus.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/deploy/assets/galleryvirgo.png": {
+		"ft": 32768,
+		"iS": 15684,
+		"oA": 0,
+		"oAP": "/deploy/assets/galleryvirgo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -412,14 +386,6 @@
 		"oAP": "/deploy/gallery.html",
 		"oF": 0
 		},
-	"/deploy/home.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/home.html",
-		"oF": 0
-		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -439,28 +405,12 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/deploy/section-2.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/section-2.html",
-		"oF": 0
-		},
 	"/dev/gallery.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/gallery.html",
-		"oF": 3
-		},
-	"/dev/home.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/home.html",
 		"oF": 2
 		},
 	"/dev/index.kit": {
@@ -472,46 +422,13 @@
 		"oF": 3
 		},
 	"/dev/js/scripts.js": {
-		"bF": 4,
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/deploy/js/scripts-min.js",
 		"oF": 2,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/sections/section-1.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dev/js/sections/section-1-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/sections/section-2.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dev/js/sections/section-2-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/sections/section-3.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dev/js/sections/section-3-min.js",
-		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -567,45 +484,6 @@
 		"oS": 0,
 		"sct": 0
 		},
-	"/dev/scss/components/_forms.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/components/_forms.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/components/_navigation.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/components/_navigation.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/helpers/_mixins.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/helpers/_mixins.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
 	"/dev/scss/helpers/_variables.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -615,45 +493,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/helpers/_variables.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/layout/_footer.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/layout/_footer.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/layout/_header.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/layout/_header.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/sections/_background.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_background.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -671,7 +510,7 @@
 		"oS": 0,
 		"sct": 0
 		},
-	"/dev/scss/sections/_home.scss": {
+	"/dev/scss/sections/_main.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -679,7 +518,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_home.css",
+		"oAP": "/dev/scss/sections/_main.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -696,14 +535,6 @@
 		"oF": 2,
 		"oS": 0,
 		"sct": 0
-		},
-	"/dev/zodiac/Aries.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/zodiac/Aries.html",
-		"oF": 0
 		},
 	"/idm31-kvc33-Notes.md": {
 		"cB": 0,

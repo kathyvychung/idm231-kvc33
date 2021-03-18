@@ -1,6 +1,19 @@
 /* =============
     Section 1
 ============= */
+body {
+    margin: 12px;
+    background-color: #333333;
+    /* transition on change */
+    opacity: 1;
+    transition: opacity 3s;
+  }
+  
+  body.blackScreen {
+    opacity: 0;
+    transition: none;
+  }
+
 #home{
 
     .grid-content {

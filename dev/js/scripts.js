@@ -1,3 +1,6 @@
-const pisObj = document.getElementById('Pis');
-const scoObj = document.getElementById('Sco');
-const aquObj = document.getElementById('Aqu');
+function fade2Content() {
+    console.log('fade2Content called');
+  
+    //the dom
+    document.body.classList.remove("blackScreen");
+  }

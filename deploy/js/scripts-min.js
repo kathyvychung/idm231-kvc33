@@ -1,1 +1,1 @@
-!function(){"use strict";document.getElementById("Pis"),document.getElementById("Sco"),document.getElementById("Aqu")}();
+function fade2Content(){console.log("fade2Content called"),document.body.classList.remove("blackScreen")}
