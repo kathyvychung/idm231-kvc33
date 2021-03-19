@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Zodiac Project</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/screen.css">
+</head>
+
+<body>
+    <!-- Preload sound files -->
+    <audio id="sndAries" src="snd/aries_sound.mp3" preload="auto"></audio>
+    <audio id="sndCancer" src="snd/cancer__sound.mp3" preload="auto"></audio>
+    <audio id="sndCap" src="snd/cap_sound.mp3" preload="auto"></audio>
+    <audio id="sndGem" src="snd/gemini___sound.mp3" preload="auto"></audio>
+    <audio id="sndLeo" src="snd/leo__sound.mp3" preload="auto"></audio>
+    <audio id="sndLib" src="snd/libra__sound.mp3" preload="auto"></audio>
+    <audio id="sndPis" src="snd/pis_sound.mp3" preload="auto"></audio>
+    <audio id="sndSag" src="snd/sagit_sound.mp3" preload="auto"></audio>
+    <audio id="sndSco" src="snd/sco_sound.mp3" preload="auto"></audio>
+    <audio id="sndTau" src="snd/taurus_sound.mp3" preload="auto"></audio>
+    <audio id="sndVir" src="snd/vir__sound.mp3" preload="auto"></audio>
+    <audio id="sndAqu" src="snd/aqu_sound.mp3" preload="auto"></audio>
+
+    <section id="grid-content">
+        <div id="main">
+            <h1>
+                LET’S GO STAR GAZING
+            </h1>
+            <p>
+                What a beautiful night to look up at the stars...
+                <br>What constellation will you find tonight?
+                <br>Click on the telescope for help!
+            </p>
+
+            <div id="userinfo">
+                <p><input id="fname" type="text" placeholder="First Name"></p>
+                <p><input id="bday" type="date"></p>
+                <p><button id="gaze">gaze</button></p>
+            </div>
+        </div>
+        <button class="zButton" id="Ari">aries</button>
+        <button class="zButton" id="Tau">tau</button>
+        <button class="zButton" id="Gem">gemini</button>
+        <button class="zButton" id="Can">cancer</button>
+        <button class="zButton" id="Leo">leo</button>
+        <button class="zButton" id="Vir">v</button>
+        <button class="zButton" id="Lib">lib</button>
+        <button class="zButton" id="Sco">sco</button>
+        <button class="zButton" id="Sag">sag</button>
+        <button class="zButton" id="Cap">cap</button>
+        <button class="zButton" id="Pis">pis</button>
+        <button class="zButton" id="Aqu">aqu</button>
+
+    </section>
+    
+<!-- Custom modal -->
+<div id="modal" class="modal">
+    <div class="modal-body">
+      <div class="modal-content">
+        <div>
+          <img id="zDisplayImg" alt="blank">
+        </div>
+        <p>You saw the<span id="zTitle">Title</span>, <span id="zDateRange">Date Range</span></p>
+        <div id="zMoreInfo">
+          <p>Object description goes here</p>
+        </div>
+        <button id="btn-modal-close" class="toggle-modal">Close</button>
+      </div>
+    </div>
+    <div class="blanket"></div>
+  </div>
+<script src="js/main.js"></script>
+</body>
+
+</html>

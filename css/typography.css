@@ -1,0 +1,21 @@
+/* =============
+    Typography
+============= */
+ p{
+    font-family: 'Lustria', serif;
+    /* font-family: 'Spectral', serif;
+    font-family: 'Montserrat', sans-serif; */
+}
+
+h1,h2,h4{
+    font-family: 'Rozha One', serif;
+}
+
+h1 {
+    font-size: rem-calc(70);
+}
+
+h2 {
+    line-height: rem-calc(30);
+    font-size: rem-calc(24);
+}

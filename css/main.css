@@ -1,0 +1,119 @@
+body {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+}
+
+/* grid */
+#grid-content {
+    display: grid;
+    grid-template-columns: 0.25fr 0.25fr 0.5fr 0.5fr 0.25fr 0.25fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-areas: 
+        ". . . . . ."
+        "ari tau main main gem can"
+        "leo vir main main lib sco"
+        "sag cap main main pis aqu"
+        ". . . . . .";
+}
+
+#main {
+    grid-area: main;
+    background-image: url(../img/Oval.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    text-align: center;
+    line-height: 180%;
+    padding-top: 150px;
+}
+
+h1 {
+    color: #F4AA34;
+    font-size: 36px;
+}
+
+p {
+    color: #F4AA34;
+    font-size: 20px;
+}
+/* Zodiac Buttons */
+.zButton {
+    width: 150px;
+    height: 200px;
+    border: none;
+    background-color: transparent;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    opacity: .75;
+    /* margin: 45px; */
+}
+
+.zButton:hover {
+    opacity: 1;
+  }
+
+#Ari {
+       
+    grid-area: ari;
+    background-image: url('../img/aries-small.png');
+}
+  
+#Tau {
+    
+    grid-area: tau;
+    background-image: url('../img/tau-small.png');
+}
+  
+#Gem {
+    
+    grid-area: gem;
+    background-image: url('../img/gem-small.png');
+}
+
+#Can {
+    grid-area: can;
+    background-image: url('../img/can-small.png');
+}
+
+#Leo {
+    grid-area: leo;
+    background-image: url('../img/leo-small.png');
+}
+
+#Vir {
+    grid-area: vir;
+    background-image: url('../img/vir-small.png');
+}
+
+#Lib {
+    grid-area: lib;
+    background-image: url('../img/lib-small.png');
+}
+
+#Sco {
+    grid-area: sco;
+    background-image: url('../img/sco-small.png');
+}
+
+#Sag {
+    grid-area: sag;
+    background-image: url('../img/sag-small.png');
+}
+
+#Cap {
+    grid-area: cap;
+    background-image: url('../img/cap-small.png');
+}
+
+#Pis {
+    grid-area: pis;
+    background-image: url('../img/pis-small.png');
+}
+
+#Aqu {
+    grid-area: aqu;
+    background-image: url('../img/aqu-small.png');
+}
