@@ -87,6 +87,20 @@ function userPicked(whichOne) {
   console.log('userPicked called: ' + whichOne);
   switch (whichOne) {
     case 'Ari':
+      // zDisplayObj.src = 'img/ariesconstellations.png';
+      // display title
+      zTitleObj.innerHTML = 'The Ram';
+      // display date range
+      zDateRangeObj.innerHTML = '##-Month to ##-Month';
+      // display description
+      zMoreInfo.innerHTML = '<p>Pisces are cool, they swim in water.</p>';
+      // Show hide modal
+      modal.hidden = !modal.hidden;
+      // play sound
+      // stopAllAudio();
+      // bulletObj.play();
+      break;
+    case 'Aqu':
       // displayObj.src = 'img/ful_pisces.png';
       // zDisplayObj.src = 'img/sml_pisces.png';
       // display title
@@ -101,8 +115,8 @@ function userPicked(whichOne) {
       // stopAllAudio();
       // bulletObj.play();
       break;
-    }
-  }
+  } 
+}
 
 
 //calendar input code
