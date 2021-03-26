@@ -12,16 +12,16 @@
 <body>
     <!-- Preload sound files -->
     <audio id="sndAries" src="snd/aries_sound.mp3" preload="auto"></audio>
-    <audio id="sndCancer" src="snd/cancer__sound.mp3" preload="auto"></audio>
+    <audio id="sndCancer" src="snd/cancer_sound.mp3" preload="auto"></audio>
     <audio id="sndCap" src="snd/cap_sound.mp3" preload="auto"></audio>
-    <audio id="sndGem" src="snd/gemini___sound.mp3" preload="auto"></audio>
-    <audio id="sndLeo" src="snd/leo__sound.mp3" preload="auto"></audio>
-    <audio id="sndLib" src="snd/libra__sound.mp3" preload="auto"></audio>
+    <audio id="sndGem" src="snd/gemini_sound.mp3" preload="auto"></audio>
+    <audio id="sndLeo" src="snd/leo_sound.mp3" preload="auto"></audio>
+    <audio id="sndLib" src="snd/libra_sound.mp3" preload="auto"></audio>
     <audio id="sndPis" src="snd/pis_sound.mp3" preload="auto"></audio>
     <audio id="sndSag" src="snd/sagit_sound.mp3" preload="auto"></audio>
     <audio id="sndSco" src="snd/sco_sound.mp3" preload="auto"></audio>
     <audio id="sndTau" src="snd/taurus_sound.mp3" preload="auto"></audio>
-    <audio id="sndVir" src="snd/vir__sound.mp3" preload="auto"></audio>
+    <audio id="sndVir" src="snd/vir_sound.mp3" preload="auto"></audio>
     <audio id="sndAqu" src="snd/aqu_sound.mp3" preload="auto"></audio>
 
     <section id="grid-content">
@@ -57,19 +57,21 @@
     </section>
     
 <!-- Custom modal -->
-<div id="modal" class="modal">
+<div id="modal" class="modal" hidden>
     <div class="modal-body">
       <div class="modal-content">
-        <div>
+        <div id="modal-img">
           <img id="zDisplayImg" alt="blank">
         </div>
-        <h1>You saw the
-        <br><span id="zTitle">Title</span></h1>
-        <h2><span id="zDateRange">Date Range</span></h2>
-        <div id="zMoreInfo">
-          <p>Object description goes here</p>
+        <div id="modal-text">
+            <h2>You saw ...
+            <br><span id="zTitle">Title</span>!</h2>
+            <h1><span id="zDateRange">Date Range</span></h1>
+            <div id="zMoreInfo">
+              <p>Object description goes here</p>
+            </div>
+            <button id="btn-modal-close" class="toggle-modal">Close</button>
         </div>
-        <button id="btn-modal-close" class="toggle-modal">Close</button>
       </div>
     </div>
     <div class="blanket"></div>

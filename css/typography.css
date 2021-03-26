@@ -18,4 +18,6 @@ h1 {
 h2 {
     line-height: rem-calc(30);
     font-size: rem-calc(24);
+    color: #F4AA34;
+
 }
