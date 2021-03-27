@@ -1,19 +1,56 @@
 body {
     background-image: url(../img/background.jpg);
     background-size: cover;
+    padding-top: 50px;
 }
 
 /* grid */
 #grid-content {
     display: grid;
     grid-template-columns: 0.25fr 0.25fr 0.5fr 0.5fr 0.25fr 0.25fr;
-    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
     grid-template-areas: 
-        ". . . . . ."
+    
         "ari tau main main gem can"
         "leo vir main main lib sco"
-        "sag cap main main pis aqu"
-        ". . . . . .";
+        "sag cap main main pis aqu";
+}
+
+input {
+    border: none;
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+
+#gaze {
+    font-family: 'Rozha One', serif;
+    font-size: 20px;
+    margin: 10px;
+    color: #F4AA34;
+    width: 100px;
+    height: 40px;
+    border: 2px solid;
+    border-color: #F4AA34;
+    text-align: center;
+    
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+    opacity: 1;
+
+    transition-duration: 0.4s;
+
+    /* a {
+        font-family: 'Lustria', serif;
+        text-decoration: none;
+        text-transform: uppercase;
+    } */
+}
+
+#gaze:hover {
+    background-color: #F4AA34;
 }
 
 #main {
@@ -24,8 +61,23 @@ body {
     background-position: center;
 
     text-align: center;
-    line-height: 180%;
-    padding-top: 150px;
+    line-height: 150%;
+    /* padding-top: 10px; */
+}
+
+#instruct {
+    grid-area: main;
+    width: 150px;
+    height: 200px;
+    background-image: url('../img/telescope.png');
+    border: none;
+    background-color: transparent;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    /* padding-top: 200px; */
+    
 }
 
 h1 {
@@ -35,7 +87,8 @@ h1 {
 
 p {
     color: #F4AA34;
-    font-size: 20px;
+    font-size: 17px;
+    font-family: 'Libre Baskerville', serif;
 }
 /* Zodiac Buttons */
 .zButton {
@@ -71,6 +124,7 @@ p {
     
     grid-area: gem;
     background-image: url('../img/gem-small.png');
+    background-size: 150px 150px;
 }
 
 #Can {
@@ -101,19 +155,23 @@ p {
 #Sag {
     grid-area: sag;
     background-image: url('../img/sag-small.png');
+    background-size: 150px 150px;
 }
 
 #Cap {
     grid-area: cap;
     background-image: url('../img/cap-small.png');
+    background-size: 150px 150px;
 }
 
 #Pis {
     grid-area: pis;
     background-image: url('../img/pis-small.png');
+    background-size: 150px 150px;
 }
 
 #Aqu {
     grid-area: aqu;
     background-image: url('../img/aqu-small.png');
+    background-size: 150px 150px;
 }

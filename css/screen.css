@@ -80,5 +80,20 @@ html {
 
 #modal-img {
 	grid-area: mImg;
+	background-image: url('../img/TealOval.png');
+	background-repeat: no-repeat;
 	background-position: center;
+	background-size: 550px 550px;
+}
+
+#btn-modal-close {
+	width: 150px;
+    height: 200px;
+    background-image: url('../img/Again.png');
+    border: none;
+    background-color: transparent;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
 }
