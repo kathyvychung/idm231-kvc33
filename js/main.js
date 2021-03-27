@@ -1,3 +1,13 @@
+//instructions
+const instructObj = document.getElementById('instruct');
+
+instructObj.addEventListener('click', function (evt) {
+  console.log('Instructions button clicked: ' + evt.target.id);
+  const idName = evt.target.id;
+  userPicked(idName);
+});
+
+//zodiacs
 const ariObj = document.getElementById('Ari');
 const aquObj = document.getElementById('Aqu');
 const canObj = document.getElementById('Can');
@@ -89,7 +99,7 @@ function userPicked(whichOne) {
     case 'Ari':
       zDisplayObj.src = 'img/ariesconstellations.png';
       // display title
-      zTitleObj.innerHTML = 'The Ram';
+      zTitleObj.innerHTML = 'You saw ...The Ram';
       // display date range
       zDateRangeObj.innerHTML = 'March 21 - April 19';
       // display description
@@ -103,7 +113,7 @@ function userPicked(whichOne) {
     case 'Tau':
       zDisplayObj.src = 'img/taurusconstellations.png';
       // display title
-      zTitleObj.innerHTML = 'The Bull';
+      zTitleObj.innerHTML = 'You saw ...The Bull';
       // display date range
       zDateRangeObj.innerHTML = 'April 20 – May 20';
       // display description
@@ -117,7 +127,7 @@ function userPicked(whichOne) {
     case 'Gem':
       zDisplayObj.src = 'img/geminiconstellations.png';
       // display title
-      zTitleObj.innerHTML = 'The Twins';
+      zTitleObj.innerHTML = 'You saw ...The Twins';
       // display date range
       zDateRangeObj.innerHTML = 'May 21 – June 21';
       // display description
@@ -131,7 +141,7 @@ function userPicked(whichOne) {
     case 'Can':
       zDisplayObj.src = 'img/cancerconstellations.png';
       // display title
-      zTitleObj.innerHTML = 'The Crab';
+      zTitleObj.innerHTML = 'You saw ...The Crab';
       // display date range
       zDateRangeObj.innerHTML = 'June 22–July 22';
       // display description
@@ -145,7 +155,7 @@ function userPicked(whichOne) {
     case 'Leo':
       zDisplayObj.src = 'img/leoconstellations.png';
       // display title
-      zTitleObj.innerHTML = 'The Lion';
+      zTitleObj.innerHTML = 'You saw ...The Lion';
       // display date range
       zDateRangeObj.innerHTML = 'July 23 – August 22';
       // display description
@@ -159,7 +169,7 @@ function userPicked(whichOne) {
     case 'Vir':
       zDisplayObj.src = 'img/virconstellations.png';
       // display title
-      zTitleObj.innerHTML = 'The Virgin';
+      zTitleObj.innerHTML = 'You saw ...The Virgin';
       // display date range
       zDateRangeObj.innerHTML = 'August 23 – September 22';
       // display description
@@ -173,7 +183,7 @@ function userPicked(whichOne) {
     case 'Lib':
       zDisplayObj.src = 'img/libconstellations.png';
       // display title
-      zTitleObj.innerHTML = 'The Balance Scale';
+      zTitleObj.innerHTML = 'You saw ...The Balance Scale';
       // display date range
       zDateRangeObj.innerHTML = 'September 23 – October 23';
       // display description
@@ -187,7 +197,7 @@ function userPicked(whichOne) {
     case 'Sco':
       zDisplayObj.src = 'img/scoconstellations.png';
       // display title
-      zTitleObj.innerHTML = 'The Scorpion';
+      zTitleObj.innerHTML = 'You saw ...The Scorpion';
       // display date range
       zDateRangeObj.innerHTML = 'October 24 – November 21';
       // display description
@@ -201,7 +211,7 @@ function userPicked(whichOne) {
     case 'Sag':
       zDisplayObj.src = 'img/sagconstellations.png';
       // display title
-      zTitleObj.innerHTML = 'The Archer';
+      zTitleObj.innerHTML = 'You saw ...The Archer';
       // display date range
       zDateRangeObj.innerHTML = 'November 22 – December 21';
       // display description
@@ -215,7 +225,7 @@ function userPicked(whichOne) {
     case 'Cap':
       zDisplayObj.src = 'img/capconstellations.png';
       // display title
-      zTitleObj.innerHTML = 'The Goat';
+      zTitleObj.innerHTML = 'You saw ...The Goat';
       // display date range
       zDateRangeObj.innerHTML = 'December 22 – January 19';
       // display description
@@ -229,7 +239,7 @@ function userPicked(whichOne) {
     case 'Aqu':
       zDisplayObj.src = 'img/aquconstellations.png';
       // display title
-      zTitleObj.innerHTML = 'The Water Bearer';
+      zTitleObj.innerHTML = 'You saw ...The Water Bearer';
       // display date range
       zDateRangeObj.innerHTML = 'January 20 – February 18';
       // display description
@@ -243,7 +253,7 @@ function userPicked(whichOne) {
     case 'Pis':
       zDisplayObj.src = 'img/pisconstellations.png';
       // display title
-      zTitleObj.innerHTML = 'The Fish';
+      zTitleObj.innerHTML = 'You saw ...The Fish';
       // display date range
       zDateRangeObj.innerHTML = 'February 19 – March 20';
       // display description
@@ -254,6 +264,20 @@ function userPicked(whichOne) {
       stopAllAudio();
       sndPisObj.play();
     break;
+
+    //how to
+    case 'instruct':
+      zDisplayObj.src = 'img/question.png';
+      // display title
+      zTitleObj.innerHTML = 'How To Look For Stars';
+      // display date range
+      zDateRangeObj.innerHTML = '';
+      // display description
+      zMoreInfo.innerHTML = '<p>Find your constellation tonight by inputting your first name and birthday! If you would like to look at other constellations, click on the constellation of your choice. If you wanna try again, just hit "Gaze Again". Happy Stargazing!</p>';
+      // Show hide modal
+      modal.hidden = !modal.hidden;
+      // play sound
+    break;
     
   } 
 }
@@ -262,11 +286,39 @@ function stopAllAudio() {
   sndAriObj.pause();
   sndAriObj.currentTime = 0;
 
-  // haloObj.pause();
-  // haloObj.currentTime = 0;
+  sndAquObj.pause();
+  sndAquObj.currentTime = 0;
 
-  // waterObj.pause();
-  // waterObj.currentTime = 0;
+  sndCanObj.pause();
+  sndCanObj.currentTime = 0;
+
+  sndCapObj.pause();
+  sndCapObj.currentTime = 0;
+
+  sndGemObj.pause();
+  sndGemObj.currentTime = 0;
+
+  sndLeoObj.pause();
+  sndLeoObj.currentTime = 0;
+
+  sndLibObj.pause();
+  sndLibObj.currentTime = 0;
+
+  sndPisObj.pause();
+  sndPisObj.currentTime = 0;
+
+  sndSagObj.pause();
+  sndSagObj.currentTime = 0;
+
+  sndScoObj.pause();
+  sndScoObj.currentTime = 0;
+
+  sndTauObj.pause();
+  sndTauObj.currentTime = 0;
+
+  sndVirObj.pause();
+  sndVirObj.currentTime = 0;
+  
 }
 
 //sound controls
@@ -346,6 +398,16 @@ closeModalObj.addEventListener('click', function() {
   modal.hidden = !modal.hidden;
   stopAllAudio();
 });
+
+//instruction modal controls
+// const instrModal = document.getElementById('instructModal');
+
+// const closeInstrModalObj = document.getElementById('btn-modal-close2');
+// closeInstrModalObj.addEventListener('click', function() {
+//   modal.hidden = !modal.hidden;
+//   stopAllAudio();
+// });
+
 
 // Link modal element/objects to JS
 const zDisplayObj = document.getElementById('zDisplayImg');
